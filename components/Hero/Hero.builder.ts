@@ -24,6 +24,12 @@ export const HeroBuilderConfig = {
       type: 'string',
       defaultValue: 'Get started'
     },
+    {
+      name: 'textColor',
+      type: 'string',
+      enum: ['red', 'white', 'magenta', 'black', 'green', '#ece'],
+      defaultValue: 'Get started'
+    },
   ],
 };
 
