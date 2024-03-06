@@ -8,9 +8,6 @@ interface Props  {
 
 const Hero = ({ title, buttonText, image, textColor }: Props) => {
   const stylying = {
-    // background-position: 50%;
-    // background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
-    // height: 500px;
     backgroundPosition: '50%',
     backgroundImage: `url('${image}')`,
     height: 500,

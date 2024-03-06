@@ -7,6 +7,8 @@ import DefaultErrorPage from "next/error";
 import Head from "next/head";
 import { GetStaticProps } from "next";
 import LayoutBusiness from "../../components/LayoutBusiness";
+import "../../components/Button/Button.builder";
+import "../../components/Checkbox/Checkobox.builder"
 
 const API_KEY = "c90ef157ba3440838c28bdc754799554"
 // Replace with your Public API Key
